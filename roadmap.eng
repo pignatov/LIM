@@ -1,0 +1,79 @@
+<<ROADMAP>>
+[05/11/02] First release 0.1 Mostly bugfixes, finalizing user interface.
+    Main features:
+    client/server TCP/IP sockets;   -> Fully implemented
+    plain text protocol;            -> yes, capable of future development
+    Java GUI;                       -> Swing GUI
+    error handling;                 -> !Partial
+    status support;                 -> Online/NA/DND/Away
+    send/receive messages;          -> fully implemented
+    per user history;               -> fully implemented
+    common chat;                    -> almost full implementation
+    user definable settings stored locally in file; -> implemented
+    popup menu per user;            -> some basic options are available
+    Beta documentation (user and tech) ->!Not very useful
+    Server per time updates         -> !in project -> 0.3 pre1
+[10/11/02] Beta release 0.2 beta 1
+    Bugs fixed
+    1) Reply to offline user
+    2) Program icon
+    3) "+CHAT" user bug fixed
+[24/12/02] release 0.3 pre1
+    1) Partial Voice chat support
+    2) better (coloured) common chat text output
+    3) server per time updates
+    4) popup menu is enhanced
+    5) better panel layout
+    6) more icons + more dialogs are centered
+[27/12/02] release 0.3 rc1
+    1) settings improvements: Send/Receive edit box samples
+    2) dialogs are now centered
+[02/01/03] release 0.3 rc2
+    1) Save chat messages button & Clear chat messages button
+    2) motd (Message Of The Day)
+[05/01/03] release 0.3 rc3
+    1) Help button added (function not yet implemented ;-)
+    2) Partial Message Board support. Adding messages is ok, but deleting is still not functional
+[06/01/03] release 0.3 rc4 nightly build
+    1) Massive Improvements and bugfixes to the Message Board.
+        -Clear, Reload functions are fully implemented
+        -Erase all my messages is mostly implemented
+        -Help & Save buttons are available but not functional
+[06/01/03] release 0.3 rc4-1
+    1) Message board "Last message remains" bug fixed
+[10/01/03] release 0.3 final
+    1) :-) and :-( emoticons added
+    2) Documentation improvements
+[17/01/03] release 0.3.1 alpha
+    1) "Seek after successful login" bug fixed
+    2) lim.ini //all server side settings are stored here
+[28/04/03] release 0.3.1 rc1
+    1) Security authentication implameneted.
+	passwd
+	    PLAMEN:EE14BF863549021DD8D6CD7D61781BE
+	record is produced by an utility called MD5Sum
+[29/05/03] release 0.3.1 rc3
+	1) New in settings: background color
+	2) Can set color of an user
+	3) Secure local storage of passwords
+[30/05/03] release 0.3.1 rc3-bugfix
+	1) Windows installer
+[08/11/03] release 0.3.2 beta1
+	1) Button for emoticons
+	2) Many bugfixes in both server and client
+	3) Improved "readability" of source files
+[XX/YY/04] release 0.3.2-0.3.4
+    ---Not sure about the exact version where a change occurred---
+    /0.3.4 was released on 20/09/2004/
+    1) New tab in Settings - "Advanced" tab
+    2) Auto away
+    3) Auto start
+    4) Many bugfixes and iEmprovements
+[30/12/04] release 0.3.5
+    1) Chat font setting finally works properly
+    2) Window dimensions are saved in the configuration file
+    3) Message board items are preserved between starts
+    4) Multiple error boxes bug fixed
+
+
+

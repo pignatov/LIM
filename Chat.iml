@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4" relativePaths="false">
+  <component name="NewModuleRootManager">
+    <content url="file://D:/FMI/LIM">
+      <sourceFolder isTestSource="false" url="file://D:/FMI/LIM/src" />
+    </content>
+    <orderEntry type="jdk" jdkName="java version &quot;1.4.1-beta&quot;" />
+    <orderEntry type="sourceFolder" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/FMI/LIM/src/am.jar!/" />
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/FMI/LIM/src/tritonus_gsm.jar!/" />
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/FMI/LIM/src/tritonus_share.jar!/" />
+        </CLASSES>
+      </library>
+    </orderEntry>
+    <output url="file://D:/FMI/LIM/bin" />
+    <output-test url="file://D:/FMI/LIM/bin" />
+    <exclude-output />
+  </component>
+</module>
+

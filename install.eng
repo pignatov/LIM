@@ -1,0 +1,29 @@
+<<INSTALL>>
+LIM version 0.3 final
+[Last modification: [02/06/2003]]
+
+0. Requirements
+    a) JRE 1.1 for server
+    b) JRE 1.4 for client and GUI (Windows/XWindows). Microphone and sound card are optional. 	
+
+1. How to install
+    Copy all files in one directory. Make sure you have java binary in your path or you will have
+    to type full path.
+
+2. How to run server
+    Start startServer.sh (or server.bat respectively under Windows). Some statistical info will
+    appear on screen.
+    Or just type: java ChatServer
+    [Windows] Execute "Start Server" from Start Menu 
+
+3. How to run client
+    Start startClient.sh (or client.bat respectively under Windows).
+    In the login dialog enter correct UIN, password and host IP.
+    Or just type: java -classpath tritonus_gsm.jar;tritonus_share.jar;am.jar;. Client
+    [Windows] Execute "Start Client" from Start Menu
+
+Note:   tritonus_gsm.jar
+        tritonus_share.jar
+        These jar archives implement GSM codec functions and am.jar helps synchronizing audio streams.
+
+

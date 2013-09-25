@@ -1,0 +1,9 @@
+<<BUGS>>
+LIM version 0.3 final
+[Last modified: [10/01/2003]]
+
+Bugs List
+1. You cannot reenter voice chat.
+3. Individual message board messages cannot be deleted. Only all messages at once.
+4. Very slow on old machines (because of Swing).
+
